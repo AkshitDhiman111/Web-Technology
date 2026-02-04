@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Input Types</title>
+    <p>Akshit Kumar 2301331550116</p>
+</head>
+
+<body>
+    <form>
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+        <label>Search:</label>
+        <input type="search" name="search"><br><br>
+        <label>Date:</label>
+        <input type="date" name="date"><br><br>
+        <label>Number:</label>
+        <input type="number" name="quantity" min="1" max="10"><br><br>
+        <label>Range:</label>
+        <input type="range" name="range" min="0" max="100"><br><br>
+        <label>Time:</label>
+        <input type="time" name="time"><br><br>
+        <label>Upload File:</label>
+        <input type="file" name="file"><br><br>
+        <label>Choose a browser:</label>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+        </datalist><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Akshit Kumar - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0f7fa, #80deea);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header,
+        footer {
+            text-align: center;
+            background: #007BFF;
+            color: white;
+            padding: 15px 0;
+        }
+        
+        h1,
+        h3 {
+            margin: 10px 0;
+        }
+        
+        hr {
+            margin: 20px 0;
+            border: none;
+            border-top: 2px solid #ccc;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            width: fit-content;
+            text-align: left;
+        }
+        
+        ul li {
+            margin: 5px 0;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: #0056b3;
+        }
+        
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: #ffffffcc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        th {
+            background: #007BFF;
+            color: white;
+        }
+        
+        footer p {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Akshit Kumar</h1>
+    </header>
+    <hr>
+    <section>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:0231csiot185@niet.co.in">0231csiot185@niet.co.in</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+917830XXXXXX">+91 7830XXXXXX</a></li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <center>
+            <h3>Objective</h3>
+        </center>
+        <p style="width:80%; margin:auto; text-align:justify;">
+            To obtain an entry-level position in the field of Internet of Things where I can apply my knowledge of embedded systems, sensors, and networking to develop smart and connected solutions.
+        </p>
+    </section>
+    <hr>
+    <section>
+        <center>
+            <h3>Qualification</h3>
+        </center>
+        <table>
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institute</th>
+                    <th>Board/University</th>
+                    <th>Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.Tech (CSE-IoT)</td>
+                    <td>NIET, Greater Noida</td>
+                    <td>AKTU</td>
+                    <td>Ongoing</td>
+                    <td>8.28 CGPA</td>
+                </tr>
+                <tr>
+                    <td>Senior Secondary (12th)</td>
+                    <td>Amar Nath Vidya Ashram, Mathura</td>
+                    <td>CBSE</td>
+                    <td>2022</td>
+                    <td>74%</td>
+                </tr>
+                <tr>
+                    <td>High School (10th)</td>
+                    <td>Amar Nath Vidya Ashram, Mathura</td>
+                    <td>CBSE</td>
+                    <td>2020</td>
+                    <td>83%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <center>
+            <h3>Skills</h3>
+        </center>
+        <ul>
+            <li>Embedded C</li>
+            <li>Smart Systems</li>
+            <li>Sensor Interfacing</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Mathura, Uttar Pradesh</p>
+        <p>Date: <span id="date"></span></p>
+    </footer>
+    <script>
+        document.getElementById("date").textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+dtd file
+<!DOCTYPE Student
+[
+<!ELEMENT Student (Name,Mobile,email)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+.xml file
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Student SYSTEM "student.dtd">
+<Student>
+    <Name>Akshit Kumar</Name>
+    <Mobile>1234567890</Mobile>
+    <email>Dhiman@gmail.com</email>
+</Student>

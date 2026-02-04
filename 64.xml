@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Student Information Document -->
+
+<students xmlns:info="http://example.com/info">
+
+    <student Roll no = "2301331550015" Course = "B.Tech">
+        <name>Akshit Kumar</name>
+        <age>21</age>
+        <info:department>IoT</info:department>
+        <year_of_admission>2023</year_of_admission>
+        <email>dhiman@example.com</email>
+        <phone>9876543210</phone>
+    </student>
+
+    <student rollno="2301331550070" course="B.Tech">
+        <name>Pushkar</name>
+        <age>19</age>
+        <info:department>IoT</info:department>
+        <year_of_admission>2023</year_of_admission>
+        <email>pushkar@example.com</email>
+        <phone>9123456780</phone>
+    </student>
+
+    <![CDATA[
+        This section contains unparsed data.
+        Example: <grade>A+</grade>
+    ]]>
+</students>
